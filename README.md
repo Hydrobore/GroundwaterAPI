@@ -1,7 +1,9 @@
-Groundwater Data API
+Groundwater Level Data API and Concatenation of Data
 
 This repository contains scripts to fetch groundwater level data from an API, process it, and combine the results into a single dataset. The data is collected from two types of borehole measurements:
+
 Dipped Boreholes: For manually dipped measurements.
+
 Logged Boreholes: For automatically logged measurements.
 
 Contents
