@@ -17,6 +17,7 @@ Concatenation_of_CSV_outputs.ipynb: Script to concatenate the outputs of the two
 Scripts
 
 1. WISKI_API_Code_for_Dipped.ipynb
+
 This script retrieves historical groundwater level data for dipped boreholes from the API and saves it into individual CSV files based on their associated keywords. It also combines all data into a master CSV file.
 
 Key Features:
@@ -26,6 +27,7 @@ Writes data to individual CSV files and a master CSV file.
 Handles different date formats with a custom parsing function.
 
 2. WISKI_API_Code_for_Logged.ipynb
+
 This script performs a similar function to WISKI_API_Code_for_Dipped.ipynb but for logged boreholes. It saves data into individual CSV files and a master CSV file, combining all fetched data.
 
 Key Features:
@@ -33,7 +35,8 @@ Key Features:
 Fetches data for logged boreholes using predefined WISKI IDs and keywords.
 Writes data to individual CSV files and a master CSV file.
 
-4. Concatenation_of_CSV_outputs.ipynb
+3. Concatenation_of_CSV_outputs.ipynb
+
 This script reads all CSV files created by the previous scripts, parses dates, and concatenates the data into a single DataFrame. It saves the combined data into a new CSV file called ultimate.csv.
 
 Key Features:
