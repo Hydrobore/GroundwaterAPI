@@ -58,7 +58,7 @@ ultimate.csv: Final concatenated dataset from all CSV files.
 
 Notes
 
-Make sure to adjust the API endpoints and parameters (for example site names and WISKI IDs) in the scripts according to your data needs.
+Make sure to adjust the API endpoints and parameters (for example site names and WISKI IDs, or timeframes of required data) in the scripts according to your data needs.
 You may need to handle API rate limits or authentication depending on the API's requirements (See DEFRA Hydrology Data Explorer API guidance).
 
 
