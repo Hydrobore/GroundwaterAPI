@@ -66,13 +66,14 @@ File Outputs:
 
 combined_groundwaterlevels_dipped.csv: Contains combined data from dipped boreholes.
 combined_groundwaterlevels_logged.csv: Contains combined data from logged boreholes.
-ultimate.csv: Final concatenated dataset from all CSV files.
+ConcatCSVdata_example.csv: Final concatenated dataset from all CSV files.
 Plot: Timeseries plot from data.
 
 Notes
 
 Make sure to adjust the API endpoints and parameters (for example site names and WISKI IDs, or timeframes of required data) in the scripts according to your data needs.
 You may need to handle API rate limits or authentication depending on the API's requirements (See DEFRA Hydrology Data Explorer API guidance).
+Make sure to change the names for outputs as suits your needs, and to edit the site_name parameters for plotting outputs. Hex colour codes are used to edit the output plots as required.
 
 
 Contact
