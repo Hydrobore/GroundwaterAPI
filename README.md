@@ -1,4 +1,4 @@
-Groundwater Level Data API and Concatenation of Data
+Groundwater Level Data API, Concatenation of Data outputs and Plotting od output data.
 
 This repository contains scripts to fetch groundwater level data from an API (DEFRA hydrology data explorer, URL: http://environment.data.gov.uk/hydrology) process it, and combine the results into a single dataset. The data is collected from two types of borehole measurements:
 
@@ -14,9 +14,15 @@ WISKI_API_Code_for_Logged.ipynb: Script to fetch and process data from logged bo
 
 Concatenation_of_CSV_outputs.ipynb: Script to concatenate the outputs of the two previous scripts into a single dataset.
 
+Plotting_data_from_outputs.ipynb: Script to plot the concatenated output data as a timeseries.
+
 Sample_data_dipped_example_output.csv: Example output from WISKI_API_Code_for_Dipped.ipynb
 
 Sample_data_logged_example_output.csv: Example output from WISKI_API_Code_for_Logged.ipynb
+
+ConcatCSVdata_example.csv: Example output from Concatenation_of_CSV_outputs.ipynb
+
+Example_plot_output.png: Example plot output from Plotting_data_from_outputs.ipynb
 
 Scripts
 
@@ -53,12 +59,15 @@ To use:
 
 First, run WISKI_API_Code_for_Dipped.ipynb to fetch and process dipped borehole data.
 Then, run WISKI_API_Code_for_Logged.ipynb for logged borehole data.
-Finally, execute Concatenation_of_CSV_outputs.ipynb to combine all CSV files into a single dataset.
+Next, execute Concatenation_of_CSV_outputs.ipynb to combine all CSV files into a single dataset.
+Finally, run Plotting_data_from_outputs.ipynb to plot the data onto a timeseries plot.
 
 File Outputs:
 
-combined_groundwaterlevels.csv: Contains combined data from dipped and logged boreholes.
+combined_groundwaterlevels_dipped.csv: Contains combined data from dipped boreholes.
+combined_groundwaterlevels_logged.csv: Contains combined data from logged boreholes.
 ultimate.csv: Final concatenated dataset from all CSV files.
+Plot: Timeseries plot from data.
 
 Notes
 
