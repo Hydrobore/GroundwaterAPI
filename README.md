@@ -14,6 +14,10 @@ WISKI_API_Code_for_Logged.ipynb: Script to fetch and process data from logged bo
 
 Concatenation_of_CSV_outputs.ipynb: Script to concatenate the outputs of the two previous scripts into a single dataset.
 
+Sample_data_dipped_example_output.csv: Example output from WISKI_API_Code_for_Dipped.ipynb
+
+Sample_data_logged_example_output.csv: Example output from WISKI_API_Code_for_Logged.ipynb
+
 Scripts
 
 1. WISKI_API_Code_for_Dipped.ipynb
