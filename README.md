@@ -53,6 +53,10 @@ Reads all CSV files in the directory.
 Parses dates using multiple date formats.
 Combines all data into a single CSV file.
 
+4. Plotting_data_from_outputs.ipynb
+
+This script plots the output CSV data onto timeseries.
+
 To use:
 
 First, run WISKI_API_Code_for_Dipped.ipynb to fetch and process dipped borehole data.
