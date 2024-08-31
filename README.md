@@ -59,6 +59,13 @@ To use:
 
 First, run WISKI_API_Code_for_Dipped.ipynb to fetch and process dipped borehole data.
 Then, run WISKI_API_Code_for_Logged.ipynb for logged borehole data.
+
+At this stage some post-processing is required for the following code to run. The returned CSV file from the WISKI_API_Code_for_Logged.ipynb can be opened with a spreadsheet software such as excel and using functions the word "logged" can be added to the end of every value in the "keyword" column. For example, I use the following function in column D in excel (as column A=keyword, column B=date and column C=value):
+
+=A2 & " logged"
+
+I then drag this formula down to apply to all data in column A, and then cut column D and paste it over the original data in column A. This step makes the remaining steps easier and provides much more clarity to the outut data.
+
 Next, execute Concatenation_of_CSV_outputs.ipynb to combine all CSV files into a single dataset.
 Finally, run Plotting_data_from_outputs.ipynb to plot the data onto a timeseries plot.
 
