@@ -1,4 +1,4 @@
-Groundwater Level Data API, Concatenation of Data outputs and Plotting of output data.
+<u>Groundwater Level Data API, Concatenation of Data outputs and Plotting of output data.</u>
 
 This repository contains scripts to fetch groundwater level data from an API (DEFRA hydrology data explorer, URL: http://environment.data.gov.uk/hydrology) process it, and combine the results into a single dataset. The data is collected from two types of borehole measurements:
 
